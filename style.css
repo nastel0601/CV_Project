@@ -1,0 +1,210 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #faf5f5;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1100px;
+    justify-content: center;
+    margin: 0 auto;
+    background: #fefdfa; 
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); 
+   }
+
+
+.aside {
+    background: #1b323f;
+    margin: 0px;
+    padding: 0px;
+    width: 370px;  
+}
+
+.contacts {
+    font: bold;
+    color: white;
+}
+
+.skills-list {
+    color: #e4d9d9;
+}
+
+.skills {
+    font: bold;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.photo {
+    /* width: 370px; */
+    margin-top: 25px;
+    margin-left: 40px;
+    /* margin-right: 0; */
+    /* margin-bottom: 0; */
+    /* margin: 0 auto;  */
+
+    width: 270px;               /* Задает ширину изображения */
+    height: 270px;              /* Задает высоту изображения */
+    border-radius: 50%;         /* Делает изображение круглым */
+    border: 5px solid #000;     /* Задает толщину и цвет рамки */
+    object-fit: cover;          /* Обеспечивает полное заполнение круга изображением */
+}
+
+.contacts-links {
+    font: bold;
+    color: rgb(255, 255, 255);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.header-secondary {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.list-secondary {
+    color: #fb6d3a;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-position: inside;
+}
+
+.list-orange {
+    color: #ffffff;
+}
+
+.contact-block {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.tech-skills-block {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.main {
+    /* padding: 102px 88px 102px 88px; */
+    padding: 40px 88px 102px 88px;
+}
+
+.job-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 30px;      /* Задает отступ сверху */
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 55px;
+    max-width: 900px;       /* Задает максимальную ширину строки */
+    text-align: center;      /* Выравнивает текст по центру */
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 40px;
+    margin-top: 40px;      /* Задает отступ сверху */
+    text-align: justify;   /* Выравнивание текста по ширине */
+}
+
+.main-description {
+    width: 500px;
+}
+
+.projects {
+    width: 485px;
+    margin-bottom: 51px;
+}
+
+.primary-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.list-primary-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.header-primary {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+    /* text-decoration: underline;    Добавляет нижнее подчеркивание */
+}
+
+.job-position {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.courses {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.highlight {
+      color: #fb6d3a; 
+} 
+
+.job-date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
+
+.job-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 40px;
+}
+
+.header-non-primary {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.contacts {
+    width: 18px;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0); 
+}
+
+.line {
+    border-bottom: 1px solid #f00; /* Параметры линии */
+}
